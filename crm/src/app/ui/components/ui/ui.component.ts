@@ -21,7 +21,7 @@ export class UiComponent implements OnInit {
     console.log('bouton cliqué');
     // opérateur not !
     this.open = !this.open;
-    console.log(this.open); 
+    console.log(this.open);
   }
 
 }

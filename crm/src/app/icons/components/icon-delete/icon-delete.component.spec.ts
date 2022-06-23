@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageListOrdersComponent } from './page-list-orders.component';
+import { IconDeleteComponent } from './icon-delete.component';
 
-describe('PageListOrdersComponent', () => {
-  let component: PageListOrdersComponent;
-  let fixture: ComponentFixture<PageListOrdersComponent>;
+describe('IconDeleteComponent', () => {
+  let component: IconDeleteComponent;
+  let fixture: ComponentFixture<IconDeleteComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PageListOrdersComponent ]
+      declarations: [ IconDeleteComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PageListOrdersComponent);
+    fixture = TestBed.createComponent(IconDeleteComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

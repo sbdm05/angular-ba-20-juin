@@ -1,19 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PageListOrdersComponent } from './page-list-orders/page-list-orders.component';
 import { PageAddClientComponent } from './page-add-client/page-add-client.component';
 import { PageEditClientComponent } from './page-edit-client/page-edit-client.component';
+import { ClientsRoutingModule } from './clients-routing.module';
+import { PageListClientsComponent } from './page-list-clients/page-list-clients.component';
 
 
 
 @NgModule({
   declarations: [
-    PageListOrdersComponent,
     PageAddClientComponent,
-    PageEditClientComponent
+    PageEditClientComponent,
+    PageListClientsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ClientsRoutingModule
   ]
 })
 export class ClientsModule { }
